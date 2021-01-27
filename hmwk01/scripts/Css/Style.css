@@ -1,0 +1,65 @@
+body {
+  background: #708a87 !important;
+  color: #000000;
+  font: Helvetica, sans-serif;
+}
+
+.Main_name, .The_foot {
+  background: #108280 !important;
+  font-size: 20pt;
+  color: #000000;
+  border: 5px solid #000000;
+  border-radius: 1.5rem;
+}
+
+.tab-content {
+  background: #5f8782 !important;
+  color: #000000;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #108280 !important;
+  color: #000000;
+}
+
+.nav-link {
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #000000;
+  background-color: #19cfcb !important;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 600px !important;
+}
+
+.list-group-item {
+  background-color: #8abfb9 !important;
+}
+
+.list-group-item:hover {
+  background-color: #8abfb9 !important;
+  color: #000000;
+}
+
+table.table-bordered {
+  border: 3px solid #108280;
+  margin-top: 20px;
+}
+
+table.table-bordered > thead > tr > th {
+  border: 3px solid #108280;
+}
+
+table.table-bordered > tbody > tr > td {
+  border: 3px solid #108280;
+}
+
+#nav-contents-container {
+  border: 5px solid #000000;
+  border-radius: 1.5rem;
+}
+/*# sourceMappingURL=Style.css.map */

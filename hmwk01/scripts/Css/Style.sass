@@ -1,0 +1,67 @@
+$color1: #708a87
+$color2: #000000
+$color3: #108280
+$color4: #19cfcb
+$color5: #8abfb9
+$color6: #5f8782
+$font-stack: Helvetica, sans-serif
+$border1: 3px solid $color3
+$border2: 5px solid $color2
+$border-rad1: 1.5rem !default
+
+body
+  background: $color1 !important
+  color: $color2
+  font: $font-stack
+
+.Main_name, .The_foot
+    background: $color3!important
+    font-size: 20pt
+    color: $color2
+    border: $border2
+    border-radius: $border-rad1
+
+.tab-content
+    background: $color6 !important
+    color: $color2
+
+.nav-pills .nav-link.active 
+    background-color: $color3 !important
+    color: $color2
+
+.nav-link
+    color: $color2
+
+.nav-link:hover
+    color: $color2
+    background-color: $color4 !important
+
+.carousel-inner
+  width: 100%
+  max-height: 600px !important
+
+.list-group-item
+    background-color: $color5 !important
+
+.list-group-item:hover
+    background-color: $color5 !important
+    color: $color2
+
+table.table-bordered
+    border: $border1
+    margin-top: 20px
+
+table.table-bordered 
+    > thead 
+        > tr 
+            > th
+                border: $border1
+    > tbody
+        >tr
+            > td
+                border: $border1
+
+#nav-contents-container
+    border: $border2
+    border-radius: $border-rad1
+
