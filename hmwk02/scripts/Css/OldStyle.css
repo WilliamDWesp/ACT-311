@@ -1,0 +1,52 @@
+body { 
+    background: #708a87 !important; 
+    color: #000000
+}
+
+.Main_name{
+    background: #108280 !important;
+    font-size: 20pt;
+    color: #000000
+}
+.The_foot{
+    background: #108280 !important;
+    font-size: 20pt;
+    color: #000000;
+}
+.tab-content{
+    background: #5f8782 !important; 
+    color: #000000;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #108280 !important;
+    color: #000000;
+}
+.nav-link{
+    color: #000000;
+}
+.nav-link:hover{
+    color: #000000;
+    background-color: #19cfcb !important;
+}
+
+
+.list-group-item{
+    background-color: #8abfb9 !important; 
+}
+
+.list-group-item:hover{
+    background-color: #19cfcb !important; 
+    color: #000000; 
+}
+
+table.table-bordered{
+    border:3px solid #108280;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:3px solid #108280;
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid #108280;
+}
