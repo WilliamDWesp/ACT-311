@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Alabama",
+        "abbreviation": "AL",
+        "Code": "04000US01"
+    },
+    {
+        "name": "Alaska",
+        "abbreviation": "AK",
+        "Code": "04000US02"
+    },
+    {
+        "name": "American Samoa",
+        "abbreviation": "AS",
+        "Code": "04000US03"
+    },
+    {
+        "name": "Arizona",
+        "abbreviation": "AZ",
+        "Code": "04000US04"
+    },
+    {
+        "name": "Arkansas",
+        "abbreviation": "AR",
+        "Code": "04000US05"
+    },
+    {
+        "name": "California",
+        "abbreviation": "CA",
+        "Code": "04000US06"
+    },
+    {
+        "name": "Colorado",
+        "abbreviation": "CO",
+        "Code": "04000US08"
+    },
+    {
+        "name": "Connecticut",
+        "abbreviation": "CT",
+        "Code": "04000US09"
+    },
+    {
+        "name": "Delaware",
+        "abbreviation": "DE",
+        "Code": "04000US10"
+    },
+    {
+        "name": "District Of Columbia",
+        "abbreviation": "DC",
+        "Code": "04000US11"
+    },
+    {
+        "name": "Florida",
+        "abbreviation": "FL",
+        "Code": "04000US12"
+    },
+    {
+        "name": "Georgia",
+        "abbreviation": "GA",
+        "Code": "04000US13"
+    },
+    {
+        "name": "Guam Gu",
+        "abbreviation": "GU",
+        "Code": "04000US66"
+    },
+    {
+        "name": "Hawaii",
+        "abbreviation": "HI",
+        "Code": "04000US15"
+    },
+    {
+        "name": "Idaho",
+        "abbreviation": "ID",
+        "Code": "04000US16"
+    },
+    {
+        "name": "Illinois",
+        "abbreviation": "IL",
+        "Code": "04000US17"
+    },
+    {
+        "name": "Indiana",
+        "abbreviation": "IN",
+        "Code": "04000US18"
+    },
+    {
+        "name": "Iowa",
+        "abbreviation": "IA",
+        "Code": "04000US19"
+    },
+    {
+        "name": "Kansas",
+        "abbreviation": "KS",
+        "Code": "04000US20"
+    },
+    {
+        "name": "Kentucky",
+        "abbreviation": "KY",
+        "Code": "04000US21"
+    },
+    {
+        "name": "Louisiana",
+        "abbreviation": "LA",
+        "Code": "04000US22"
+    },
+    {
+        "name": "Maine",
+        "abbreviation": "ME",
+        "Code": "04000US23"
+    },
+    {
+        "name": "Maryland",
+        "abbreviation": "MD",
+        "Code": "04000US24"
+    },
+    {
+        "name": "Massachusetts",
+        "abbreviation": "MA",
+        "Code": "04000US25"
+    },
+    {
+        "name": "Michigan",
+        "abbreviation": "MI",
+        "Code": "04000US26"
+    },
+    {
+        "name": "Minnesota",
+        "abbreviation": "MN",
+        "Code": "04000US27"
+    },
+    {
+        "name": "Mississippi",
+        "abbreviation": "MS",
+        "Code": "04000US28"
+    },
+    {
+        "name": "Missouri",
+        "abbreviation": "MO",
+        "Code": "04000US29"
+    },
+    {
+        "name": "Montana",
+        "abbreviation": "MT",
+        "Code": "04000US30"
+    },
+    {
+        "name": "Nebraska",
+        "abbreviation": "NE",
+        "Code": "04000US32"
+    },
+    {
+        "name": "Nevada",
+        "abbreviation": "NV",
+        "Code": "04000US32"
+    },
+    {
+        "name": "New Hampshire",
+        "abbreviation": "NH",
+        "Code": "04000US33"
+    },
+    {
+        "name": "New Jersey",
+        "abbreviation": "NJ",
+        "Code": "04000US34"
+    },
+    {
+        "name": "New Mexico",
+        "abbreviation": "NM",
+        "Code": "04000US35"
+    },
+    {
+        "name": "New York",
+        "abbreviation": "NY",
+        "Code": "04000US36"
+    },
+    {
+        "name": "North Carolina",
+        "abbreviation": "NC",
+        "Code": "04000US37"
+    },
+    {
+        "name": "North Dakota",
+        "abbreviation": "ND",
+        "Code": "04000US38"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "abbreviation": "MP",
+        "Code": "04000US69"
+    },
+    {
+        "name": "Ohio",
+        "abbreviation": "OH",
+        "Code": "04000US39"
+    },
+    {
+        "name": "Oklahoma",
+        "abbreviation": "OK",
+        "Code": "04000US40"
+    },
+    {
+        "name": "Oregon",
+        "abbreviation": "OR",
+        "Code": "04000US41"
+    },
+    {
+        "name": "Pennsylvania",
+        "abbreviation": "PA",
+        "Code": "04000US42"
+    },
+    {
+        "name": "Puerto Rico",
+        "abbreviation": "PR",
+        "Code": "04000US72"
+    },
+    {
+        "name": "Rhode Island",
+        "abbreviation": "RI",
+        "Code": "04000US44"
+    },
+    {
+        "name": "South Carolina",
+        "abbreviation": "SC",
+        "Code": "04000US45"
+    },
+    {
+        "name": "South Dakota",
+        "abbreviation": "SD",
+        "Code": "04000US46"
+    },
+    {
+        "name": "Tennessee",
+        "abbreviation": "TN",
+        "Code": "04000US47"
+    },
+    {
+        "name": "Texas",
+        "abbreviation": "TX",
+        "Code": "04000US48"
+    },
+    {
+        "name": "Utah",
+        "abbreviation": "UT",
+        "Code": "04000US49"
+    },
+    {
+        "name": "Vermont",
+        "abbreviation": "VT",
+        "Code": "04000US50"
+    },
+    {
+        "name": "Virgin Islands",
+        "abbreviation": "VI",
+        "Code": "04000US78"
+    },
+    {
+        "name": "Virginia",
+        "abbreviation": "VA",
+        "Code": "04000US51"
+    },
+    {
+        "name": "Washington",
+        "abbreviation": "WA",
+        "Code": "04000US53"
+    },
+    {
+        "name": "West Virginia",
+        "abbreviation": "WV",
+        "Code": "04000US54"
+    },
+    {
+        "name": "Wisconsin",
+        "abbreviation": "WI",
+        "Code": "04000US55"
+    },
+    {
+        "name": "Wyoming",
+        "abbreviation": "WY",
+        "Code": "04000US56"
+    }
+]
