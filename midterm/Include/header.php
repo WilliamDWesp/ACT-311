@@ -12,7 +12,7 @@
         
         <title>JavaScript Examples</title>
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="scripts/Css/Style.css">
+        
         
         
     </head>

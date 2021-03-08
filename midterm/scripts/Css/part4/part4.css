@@ -1,0 +1,10 @@
+body {
+  background: #708a87 !important;
+  color: #000000;
+  font: Helvetica, sans-serif;
+}
+
+div > h1 {
+  border: 3px solid #108280;
+}
+/*# sourceMappingURL=part4.css.map */

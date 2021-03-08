@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAWA,AAAA,IAAI,CAAC;EACH,UAAU,EAZH,OAAO,CAYM,UAAU;EAC9B,KAAK,EAZE,OAAO;EAad,IAAI,EARO,SAAS,EAAE,UAAU;CAQZ;;AAEtB,AACI,GADD,GACG,EAAE,CAAC;EACD,MAAM,EAXJ,GAAG,CAAC,KAAK,CALV,OAAO;CAgBW",
+    "sources": [
+        "part4.sass"
+    ],
+    "names": [],
+    "file": "part4.css"
+}
