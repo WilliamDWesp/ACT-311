@@ -1,7 +1,7 @@
 
 async function addTeachersToList(){
     try {
-        const response = await fetch('/users/wwesp/act311/hmwk/midterm/scripts/js/jsons/all.json');
+        const response = await fetch('/users/wwesp/act311/hmwk/midterm/scripts/js/CSMP.json');
         const data = await response.json();
         var sel = document.querySelector("#stateSelect");
         var list = []

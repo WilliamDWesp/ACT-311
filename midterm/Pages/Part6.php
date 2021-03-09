@@ -50,7 +50,7 @@ include "/../Include/header.php";
         
     </div>
     <div class="col-12">
-        <ul class="list-group" id="badReq">
+        <ul class="list-group d-none" id="badReq">
             <li class="list-group-item">Bad Requests: </li>
         </ul>
     </div>

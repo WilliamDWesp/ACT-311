@@ -37,7 +37,6 @@ async function processError(jsonFile){
     
 }
 
-
 async function addInstructor(x){
     
     var selected = x.options[x.selectedIndex].id
@@ -75,7 +74,7 @@ async function getTeacherData(button){
             jsonArr.push(data[key])
         }
     }
-    console.log(jsonArr)
+    //console.log(jsonArr)
     displayData(jsonArr)
     return data;
 
@@ -103,4 +102,80 @@ function displayData(x){
         cell5.innerHTML = x[j]['times'][0];
     } 
     
+}
+
+async function addTypes(){
+    const response = await fetch('/users/wwesp/act311/hmwk/midterm/scripts/js/Jsons/bad.json');
+    const data = await response.json();
+    var sel = document.querySelector("#selectType");
+    var uniqueArr = []
+    for (var key in data) {
+        //console.log(data[key])
+        var bool = await processError(data[key])
+        if(bool){
+            const response2 = await fetch('/users/wwesp/act311/hmwk/midterm/scripts/js/Jsons/'+data[key]['filename']);
+            const data2 = await response2.json();
+            //console.log(data[key]['filename'])
+            for(var key2 in data2){
+                //console.log(data2[key2]['type'])
+                
+                if(!uniqueArr.includes(data2[key]['type'])){
+                    uniqueArr.push(data2[key]['type'])
+                    var option = document.createElement("option");
+                    option.text = data2[key]['type'];
+                    option.id = data2[key]['type'];
+                    sel.add(option);
+                }
+                
+            }
+            
+            //console.log(data2)
+            
+        }
+        
+
+
+    }
+    sel.classList.remove("d-none");
+    return data;
+}
+
+
+async function getTypeData(button){
+    
+    
+    const response = await fetch('/users/wwesp/act311/hmwk/midterm/scripts/js/Jsons/bad.json');
+    const data = await response.json();
+    var type =  button.options[button.selectedIndex].id
+    var arr = []
+    for (var key in data) {
+        //console.log(data[key])
+        var bool = await processError(data[key])
+        if(bool){
+            const response2 = await fetch('/users/wwesp/act311/hmwk/midterm/scripts/js/Jsons/'+data[key]['filename']);
+            const data2 = await response2.json();
+            //console.log(data[key]['filename'])
+            for(var key2 in data2){
+                //console.log(type)
+                //console.log(type.localeCompare(data2[key]['type']))
+                if(type.localeCompare(data2[key2]['type']) == 0){
+                    console.log("happen")
+                    arr.push(data2[key2])
+                }
+                
+            }
+            
+            //console.log(data2)
+            
+        }
+        
+
+
+    }
+    console.log(arr)
+    displayData(arr)
+    return data;
+
+
+
 }

@@ -40,9 +40,7 @@ include "/Include/header.php";
         <button type="button" class="btn btn-info"  onclick="NewTab('part7.php')">
             7
         </button>
-        <button type="button" class="btn btn-info"  onclick="NewTab('part8.php')">
-            8
-        </button>
+
     </div>
 </div>
 
