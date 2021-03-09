@@ -22,7 +22,8 @@ include "/../Include/header.php";
     
     
     <pre class="col-12 mt-2">
-        0cd450a8536900e967bee5deb3ef77cd89de7fbf (HEAD -> main, origin/main, origin/HEAD) midterm Part 6 /n
+        6a30c40442d3f747431699cde184dd4c35f9ca0f (HEAD -> main, origin/main, origin/HEAD) midterm part 7
+        0cd450a8536900e967bee5deb3ef77cd89de7fbf midterm Part 6
         12bca5ed02ffea18482f8a8e7eb62ec672c4e062 Midterm Part 5
         2dc26d117b67850e0e8aa156bebe46622d7e4473 Midterm part 4
         9b6e644bda215e672528d970323b018c47d4f9a9 MidTerm Part 3
